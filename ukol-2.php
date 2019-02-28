@@ -28,6 +28,7 @@
                 <td><?php echo ("$radek"); ?></td>
                 <td><?php echo ("$pocetRadku"); ?></td>
             </tr>
+        <?php $radek = $radek + 1; ?>
         </tbody>
     </table>
 </div>
