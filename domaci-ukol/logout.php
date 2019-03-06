@@ -18,7 +18,7 @@ session_start();
 unset($_SESSION['prihlasen']);
 echo ("Odhlaseno");
 ?>
-    <a class="nav-link" href="logout.php">Prihlaseni <span class="sr-only">(current)</span></a>
+    <a class="nav-link" href="login.php">Prihlaseni <span class="sr-only">(current)</span></a>
 
 </div>
 </body>
