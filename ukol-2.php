@@ -21,14 +21,14 @@
         $radek = 1;
         $pocetRadku = 5;
         while ($radek <= $pocetRadku) {
+            echo "<tr>
+                <td>$radek</td>
+                <td>$pocetRadku</td>
+            </tr>";
             $radek = $radek + 1;
-                }
+        }
         ?>
-            <tr>
-                <td><?php echo ("$radek"); ?></td>
-                <td><?php echo ("$pocetRadku"); ?></td>
-            </tr>
-        <?php $radek = $radek + 1; ?>
+
         </tbody>
     </table>
 </div>
